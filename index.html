@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<!-- HTML goes here -->
+
+<html>
+	<head>
+		<title>Number Guessing Game</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div id="mainCard">
+			<h1 id="cardHead">Number Guessing Game!</h1>
+			<div>Guess a number from <span class="specialText">1 to 100...</span></div>
+			<input type="number" name="guess" id="guessInput" min="1" max="100">
+			<div id="hintBox">As you play, <span class="specialText">hints</span> will show up here.</div>
+			<div><span id="noOfTries" class="specialText">5</span> tries remain.</div>
+			<button id="guessBtn" class="buttons">Guess</button>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
